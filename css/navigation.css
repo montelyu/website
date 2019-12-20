@@ -1,0 +1,43 @@
+.navbar {
+	overflow: hidden;
+	background-color: rgba(45,45,45,0.98);
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding-top: 10px;
+	width: 100%;
+
+	z-index: 10;
+}
+
+.navbar a.is-current {
+	color: #fdd023;
+}
+
+.navbar a {
+	text-align: center;
+	display: inline;
+	color: #f2f2f2;
+	padding: 50px 30px 50px 30px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.navbar ul {
+	text-align: center;
+}
+
+.navbar li {
+	display: inline;
+	border-right: 1px solid #bbb
+}
+
+.navbar li:last-child {
+	border-right: none;
+}
+
+.navbar a:hover {
+  color: #C0C0C0;
+  transition: .5s ease;
+}
+
